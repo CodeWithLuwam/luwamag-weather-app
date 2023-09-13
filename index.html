@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="styles/index.css" />
 </head>
 <body>
+    <div id="top">
+        <div id="top--logo">
+            <img src="assets/LuwamAG-Weather-App.png" alt="luwamAG cloud logo" id="top--logo--img">
+        </div>
+        <form id="top--location"> 
+            <label for="cityzip" id="top--location--label"> City/Zip Code</label>
+            <input type="text" id="top--location--input" name="cityzip">
+            <button type="submit"> Submit</button>
+        </form>
+    </div>
+    <div id="middle">
+        <div id="middle--temperature"> MIDDLE</div>
+    </div>
+    <div id="bottom">BOTTOM</div>
     <script src="./src/index.js"></script>
     <script src="./node_modules/axios/dist/axios.min.js"></script>
 </body>

@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0
+}
+/* TOP */
+#top {
+    /* background-color: aqua; */
+    height: 15vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around; 
+    align-items: center;
+
+}
+
+#top--logo{
+    height: 150%;
+}
+#top--logo--img {
+    height:90%;
+}
+
+#top--location{
+    display: flex;
+    flex-direction: column;
+}
+
+/* MIDDLE */
+#middle{
+    background-color: brown;
+    height: 40vh;
+}
+
+/* BOTTOM */
+#bottom {
+    background-color: yellowgreen;
+    height: 45vh
+}
